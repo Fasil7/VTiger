@@ -1,0 +1,23 @@
+Documentation for Github S3 POC
+
+1.SETUP INSTRUCTIONS
+- Prerequisties
+- Setting up AWS s3 bucket using Console
+- Installing Git 
+- Installing AWS CLI in virtual Machine
+- Configured AWS CLI using credentials for interact with S3
+
+2.BACKUP STRATEGY
+- Incremental Backup from Monday to saturday
+- Full Backup on Sunday
+
+3.IMPLEMENTATION
+- Backup script "backup.sh"
+- Restore script "restore.py"
+
+4.AUTOMATED BACKUP SETUP
+- Creating CronJobs
+- Understanding Cron Syntax
+- Adding Cron Entries
+- Verifying CronJobs
+- Troubleshooting  
