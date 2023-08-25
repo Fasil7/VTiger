@@ -1,0 +1,4 @@
+# Incremental backup Monday to saturday at 2AM
+0 2 * * 1-6 /home/ubuntu/gitbackup/backup.sh
+#Full Backup on Sunday at 2AM
+0 2 * * 0 /home/ubuntu/gitbackup/backup.sh
