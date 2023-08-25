@@ -1,0 +1,19 @@
+DOCUMENTATION FOR CSV PARSING
+
+1.SETUP INSTRUCTIONS
+- Prerequisties
+- Setting up virtual Machine
+- Installed Python using CLI
+- Installed pymysql using CLI to import and fetch the database
+- Installed some dependencies to run this
+
+2.PARSING STRATEGY
+- Import the data from CSV to Mysql database
+- Fetch the desired data using --search from the database
+
+3.IMPLEMENTATION
+- Installed mysql and switch into it.
+- Created a Database 
+- Created a Table to store a data from CSV
+- Import script "importdata.py"
+- Fetch script "fetchdata.py"
